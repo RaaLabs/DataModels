@@ -22,6 +22,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Sourcedata contains metadata relevent to the sensor generating the data </summary>
         public SourceData SourceData { get; set; }        
-
     }
 }

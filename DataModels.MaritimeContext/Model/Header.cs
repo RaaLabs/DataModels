@@ -19,6 +19,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Metadata relevant to the event </summary>
         public MetaData MetaData {get; set; }
-
     }
 }

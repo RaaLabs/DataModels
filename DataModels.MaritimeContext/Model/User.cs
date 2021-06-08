@@ -16,6 +16,5 @@ namespace RaaLabs.DataModels.MaritimeContext
        
         /// <summary> Name of the user producing the data </summary>
         public string Name { get; set; }       
-
     }
 }

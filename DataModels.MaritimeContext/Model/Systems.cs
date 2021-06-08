@@ -16,7 +16,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Uri the system </summary>
         public string Uri { get; set; }             
-  
-
     }
 }

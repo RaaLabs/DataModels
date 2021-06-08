@@ -28,6 +28,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Reading contains data regarding the reading from the sensor or sensor system </summary>
         public ReadingInstantaneous ReadingInstantaneous { get; set; }
-
     }
 }

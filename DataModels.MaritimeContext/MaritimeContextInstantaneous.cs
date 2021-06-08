@@ -13,6 +13,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary>  </summary>
         public McBodyInstantaneous McBodyInstantaneous { get; set; }
-
     }
 }

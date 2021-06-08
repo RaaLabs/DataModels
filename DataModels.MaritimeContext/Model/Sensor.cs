@@ -28,6 +28,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Calibration date of the sensor </summary>
         public string CalibrationDate { get; set; }
-
     }
 }

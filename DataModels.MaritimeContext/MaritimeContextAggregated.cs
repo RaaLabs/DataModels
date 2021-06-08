@@ -13,8 +13,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary>  </summary>
         public McBodyAggregated McBodyAggregated { get; set; }
-
-        
-
     }
 }

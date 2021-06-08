@@ -13,6 +13,5 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> User spesific data </summary>
         public User User { get; set; }        
-
     }
 }
