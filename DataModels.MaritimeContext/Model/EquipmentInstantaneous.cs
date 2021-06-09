@@ -27,6 +27,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public OtherIds OtherIds { get; set; }
 
         /// <summary> Reading contains data regarding the reading from the sensor or sensor system </summary>
-        public ReadingInstantaneous ReadingInstantaneous { get; set; }
+        public ReadingInstantaneous Reading { get; set; }
     }
 }

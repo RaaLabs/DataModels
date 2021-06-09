@@ -27,6 +27,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public OtherIds OtherIds { get; set; }
 
         /// <summary> Reading contains data regarding the reading from the sensor or sensor system </summary>
-        public ReadingAggregated ReadingAggregated { get; set; }
+        public ReadingAggregated Reading { get; set; }
     }
 }
