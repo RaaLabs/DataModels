@@ -18,6 +18,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public string EventVersion { get; set; }
 
         /// <summary> Payload contain the equipment readings in the event  </summary>
-        public EquipmentInstantaneous EquipmentInstantaneous { get; set; }
+        public EquipmentInstantaneous Equipment { get; set; }
     }
 }

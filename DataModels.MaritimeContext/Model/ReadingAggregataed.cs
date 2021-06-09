@@ -21,6 +21,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public string Position { get; set; }
 
         /// <summary> Data of the reading </summary>
-        public AggregatedData AggregatedData { get; set; }
+        public AggregatedData Data { get; set; }
     }
 }

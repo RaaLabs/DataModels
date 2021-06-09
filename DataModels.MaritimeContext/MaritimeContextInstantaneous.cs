@@ -8,10 +8,10 @@ namespace RaaLabs.DataModels.MaritimeContext
     /// </summary>
     public class MaritimeContextInstantaneous
     {
-        /// <summary>  </summary>
+        /// <summary> Header section of the event </summary>
         public Header Header { get; set; }
 
-        /// <summary>  </summary>
-        public McBodyInstantaneous McBodyInstantaneous { get; set; }
+        /// <summary> Body section of the event </summary>
+        public McBodyInstantaneous Body { get; set; }
     }
 }

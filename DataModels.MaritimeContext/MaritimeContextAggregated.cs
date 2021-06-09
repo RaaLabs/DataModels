@@ -8,10 +8,10 @@ namespace RaaLabs.DataModels.MaritimeContext
     /// </summary>
     public class MaritimeContextAggregated
     {
-        /// <summary>  </summary>
+        /// <summary> Header section of the event </summary>
         public Header Header { get; set; }
 
-        /// <summary>  </summary>
-        public McBodyAggregated McBodyAggregated { get; set; }
+        /// <summary> Body section of the event </summary>
+        public McBodyAggregated Body { get; set; }
     }
 }
