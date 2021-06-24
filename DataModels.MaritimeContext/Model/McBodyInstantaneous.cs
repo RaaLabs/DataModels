@@ -17,7 +17,13 @@ namespace RaaLabs.DataModels.MaritimeContext
         /// <summary> EventVersion describe the version of the event format  </summary>
         public string EventVersion { get; set; }
 
+        /// <summary> CommonId describe the Mc identifier of the event</summary>
+        public string CommonId { get; set; }
+    
+        /// <summary> LocalID describe the internal identifier of the event</summary>
+        public string LocalId { get; set; }
         /// <summary> Payload contain the equipment readings in the event  </summary>
-        public EquipmentInstantaneous Equipment { get; set; }
+        public BodyInstantaneous Body { get; set; }
+        
     }
 }

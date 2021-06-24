@@ -13,7 +13,7 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Maritime Context unique ID of the user </summary>
         public string McUid { get; set; }
-       
+
         /// <summary> Name of the user producing the data </summary>
         public string Name { get; set; }       
     }

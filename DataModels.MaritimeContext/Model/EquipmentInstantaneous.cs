@@ -12,8 +12,11 @@ namespace RaaLabs.DataModels.MaritimeContext
         public string Discipline { get; set; }
 
         /// <summary> Key describe the second and third level of sensor hierarcy on the format secondLvl/thirdLvl </summary>
-        public string Key { get; set; }
+        public string CommonKey { get; set; }
 
+        /// <summary> LocalKey describe the second and third level of sensor hierarcy on the format secondLvl/thirdLvl </summary>
+        public string LocalKey { get; set; }
+        
         /// <summary> Instance describe Key on the format x/z </summary>
         public string Instance { get; set; }
 
