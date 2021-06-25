@@ -13,5 +13,7 @@ namespace RaaLabs.DataModels.MaritimeContext
 
         /// <summary> Unit of the reading </summary>
         public string Unit { get; set; }
+
+        public Title Title { get; set; }
     }
 }

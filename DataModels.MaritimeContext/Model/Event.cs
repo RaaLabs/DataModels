@@ -9,10 +9,10 @@ namespace RaaLabs.DataModels.MaritimeContext
     public class Event
     {
         /// <summary> EventType describe if the event is an instentainous or aggregated event.  </summary>
-        public string EventType { get; set; }
+        public string Type { get; set; }
 
         /// <summary> EventVersion describe the version of the event format  </summary>
-        public string EventVersion { get; set; }
+        public string Version { get; set; }
 
         /// <summary> Unique event id  </summary>
         public string Id { get; set; }
