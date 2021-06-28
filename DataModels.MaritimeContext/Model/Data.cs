@@ -9,7 +9,7 @@ namespace RaaLabs.DataModels.MaritimeContext
     public class Data
     {
         /// <summary> Value of the reading </summary>
-        public string Value { get; set; }
+        public dynamic Value { get; set; }
 
         /// <summary> Unit of the reading </summary>
         public string Unit { get; set; }
