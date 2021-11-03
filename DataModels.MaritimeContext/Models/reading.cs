@@ -1,17 +1,17 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class reading
+    public class Reading
     {
-        public string content { get; set; }
-        public string position { get; set; }
-        public string measure { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public string readingTime { get; set; }
-        public string readingType { get; set; }
-        public double intervalSeconds { get; set; }
-        public double value { get; set; }
-        public string unit { get; set; }
-        public customFields customFields { get; set; }
+        public string Content { get; set; }
+        public string Position { get; set; }
+        public string Measure { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public string ReadingTime { get; set; }
+        public string ReadingType { get; set; }
+        public double IntervalSeconds { get; set; }
+        public double Value { get; set; }
+        public string Unit { get; set; }
+        public CustomFields CustomFields { get; set; }
     }
 }

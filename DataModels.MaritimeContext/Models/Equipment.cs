@@ -1,10 +1,10 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class equipment
+    public class Equipment
     {
-        public string key { get; set; }
-        public string title { get; set; }
-        public customFields customFields { get; set; }
+        public string Key { get; set; }
+        public string Title { get; set; }
+        public CustomFields CustomFields { get; set; }
 
     }
 }

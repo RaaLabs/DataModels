@@ -1,11 +1,11 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class customFields
+    public class CustomFields
     {
-        public string mcKey { get; set; }
-        public string value { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
+        public string McKey { get; set; }
+        public string Value { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
 
     }
 }

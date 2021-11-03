@@ -1,11 +1,11 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class source
+    public class Source
     {
-        public string sourceKey { get; set; }
-        public string sourceType { get; set; }
-        public string relativeUrl { get; set; }
-        public string systemName { get; set; }
-        public customFields customFields { get; set; }
+        public string SourceKey { get; set; }
+        public string SourceType { get; set; }
+        public string RelativeUrl { get; set; }
+        public string SystemName { get; set; }
+        public CustomFields CustomFields { get; set; }
     }
 }

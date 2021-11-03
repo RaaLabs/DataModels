@@ -1,12 +1,12 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class eventData
+    public class EventData
     {
-        public string mcKey { get; set; }
-        public string discipline { get; set; }
-        public string eventType { get; set; }
-        public string timestampUTC { get; set; }
-        public string timestampLocal { get; set; }
-        public string id { get; set; }
+        public string McKey { get; set; }
+        public string Discipline { get; set; }
+        public string EventType { get; set; }
+        public string TimestampUTC { get; set; }
+        public string TimestampLocal { get; set; }
+        public string Id { get; set; }
     }
 }
