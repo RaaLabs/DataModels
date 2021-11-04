@@ -5,10 +5,10 @@ namespace RaaLabs.DataModels.MaritimeContext
 {
     public class mcEvent
     {
-        public eventData eventData { get; set; }
-        public equipment equipment { get; set; }
-        public asset asset { get; set; }
-        public reading reading { get; set; }
-        public source source { get; set; }
+        public EventData EventData { get; set; }
+        public Equipment Equipment { get; set; }
+        public Asset Asset { get; set; }
+        public Reading Reading { get; set; }
+        public Source Source { get; set; }
     }
 }

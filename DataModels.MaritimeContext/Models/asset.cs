@@ -1,12 +1,12 @@
 namespace RaaLabs.DataModels.MaritimeContext
 {
-    public class asset
+    public class Asset
     {
-        public string globalId { get; set; }
-        public string name { get; set; }
-        public string type { get; set; }
-        public double latitude { get; set; }
-        public double longitude { get; set; }
+        public string GlobalId { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
 
     }
 }
