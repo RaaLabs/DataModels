@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RaaLabs.DataModels.MaritimeContext
 {
     public class Reading
@@ -12,6 +14,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public double IntervalSeconds { get; set; }
         public double Value { get; set; }
         public string Unit { get; set; }
-        public CustomFields CustomFields { get; set; }
+        public List<CustomFields> CustomFields { get; set; }
     }
 }

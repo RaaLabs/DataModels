@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RaaLabs.DataModels.MaritimeContext
 {
     public class Source
@@ -6,6 +8,6 @@ namespace RaaLabs.DataModels.MaritimeContext
         public string SourceType { get; set; }
         public string RelativeUrl { get; set; }
         public string SystemName { get; set; }
-        public CustomFields CustomFields { get; set; }
+        public List<CustomFields> CustomFields { get; set; }
     }
 }
