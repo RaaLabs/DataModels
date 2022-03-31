@@ -11,8 +11,8 @@ namespace RaaLabs.DataModels.MaritimeContext
         public string Description { get; set; }
         public string ReadingTime { get; set; }
         public string ReadingType { get; set; }
-        public double IntervalSeconds { get; set; }
-        public double Value { get; set; }
+        public float? IntervalSeconds { get; set; }
+        public dynamic Value { get; set; }
         public string Unit { get; set; }
         public List<CustomFields> CustomFields { get; set; }
     }
