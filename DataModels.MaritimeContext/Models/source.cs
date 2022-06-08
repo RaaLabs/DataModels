@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace RaaLabs.DataModels.MaritimeContext
 {
     public class Source
