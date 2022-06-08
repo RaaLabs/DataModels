@@ -9,12 +9,7 @@ namespace RaaLabs.DataModels.MaritimeContext
         public Asset Asset { get; set; }
         public Source Source { get; set; }
         public Equipment Equipment { get; set; }
-
-        #nullable enable	
-        public VesselReading? VesselReading { get; set; }
-        #nullable disable
-        #nullable enable	
-        public Reading? Reading { get; set; }
-        #nullable disable
+        public VesselReading VesselReading { get; set; }
+        public Reading Reading { get; set; }
     }
 }
